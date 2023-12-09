@@ -1,3 +1,10 @@
+Sgrayk's knowledge blog
+===
+
+# Deloy App
+> npm run deploy -- -m "Deploy React app to GitHub Pages"
+After deploying, it will be in branch: `gh-pages`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
