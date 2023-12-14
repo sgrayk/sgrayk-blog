@@ -1,11 +1,15 @@
 import { ComponentType, Suspense, lazy } from "react";
-import BaseLayout from "../../layouts/base_layout/BaseLayout";
+import BaseLayout from "../../layouts/base_layout";
 import SuspenseLoader from "../../core/suspense_loader/SuspenseLoader";
 import { RouteObject, Navigate } from "react-router-dom";
 import { JSX } from "react/jsx-runtime";
-import BlogLayout from "../../layouts/blog_layout/BlogLayout";
-import PortfolioLayout from "../../layouts/portfolio_layout/PortfolioLayout";
-import SpecialLayout from "../../layouts/special_layout/SpecialLayout";
+import BlogLayout from "../../layouts/blog_layout";
+import PortfolioLayout from "../../layouts/portfolio_layout";
+import SpecialLayout from "../../layouts/special_layout";
+import Blog from "../../presentations/blog";
+import Portfolio from "../../presentations/portfolio";
+import Noel2023 from "../../presentations/special/noel_2023";
+import Gift from "../../presentations/special";
 
 const Loader = (Component: ComponentType) => (props: JSX.IntrinsicAttributes) =>
   (
@@ -17,14 +21,15 @@ const Loader = (Component: ComponentType) => (props: JSX.IntrinsicAttributes) =>
 // Pages
 const HomePage = Loader(lazy(() => import("../../presentations/home")));
 
-
 // Status
-const Status404 = Loader(lazy(() => import("../../presentations/status/Status404")));
+const Status404 = Loader(
+  lazy(() => import("../../presentations/status/status_404"))
+);
 const StatusComingSoon = Loader(
-  lazy(() => import("../../presentations/status/StatusComingSoon"))
+  lazy(() => import("../../presentations/status/status_coming_soon"))
 );
 const StatusMaintenance = Loader(
-  lazy(() => import("../../presentations/status/StatusMaintenance"))
+  lazy(() => import("../../presentations/status/status_maintenance"))
 );
 
 const routes: RouteObject[] = [
@@ -64,17 +69,39 @@ const routes: RouteObject[] = [
     ],
   },
   {
-    path: "/blog",
-    element: <BlogLayout />
+    path: "blog",
+    element: <BlogLayout />,
+    children: [
+      {
+        path: "",
+        element: <Blog />,
+      },
+    ],
   },
   {
-    path: "/portfolio",
-    element: <PortfolioLayout />
+    path: "portfolio",
+    element: <PortfolioLayout />,
+    children: [
+      {
+        path: "",
+        element: <Portfolio />,
+      },
+    ],
   },
   {
-    path: "/specialgift",
-    element: <SpecialLayout />
-  }
+    path: "specialgift",
+    element: <SpecialLayout />,
+    children: [
+      {
+        path: "",
+        element: <Gift />,
+      },
+      {
+        path: "noel-2023",
+        element: <Noel2023 />,
+      },
+    ],
+  },
 ];
 
 export default routes;

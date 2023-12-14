@@ -1,6 +1,10 @@
 Sgrayk's knowledge blog
 ===
 
+# Ubuntu:
+To run vscode as root user 
+> code . --user-data-dir='/root/.vscode' --no-sandbox
+
 # Deloy App
 > npm run deploy -- -m "Deploy React app to GitHub Pages"
 After deploying, it will be in branch: `gh-pages`
