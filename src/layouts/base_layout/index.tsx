@@ -1,4 +1,3 @@
-import { Box } from "@mui/material";
 import { FC, ReactNode } from "react";
 import { Outlet } from "react-router-dom";
 
@@ -8,14 +7,9 @@ interface BaseLayoutProps {
 
 const BaseLayout: FC<BaseLayoutProps> = ({ children }) => {
   return (
-    <Box
-      sx={{
-        flex: 1,
-        height: "100%",
-      }}
-    >
+    <div>
       {children || <Outlet />}
-    </Box>
+    </div>
   );
 };
 

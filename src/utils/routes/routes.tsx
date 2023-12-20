@@ -102,6 +102,10 @@ const routes: RouteObject[] = [
       },
     ],
   },
+  {
+    path: "sgrayk-blog",
+    element: <Navigate to="/" replace />
+  }
 ];
 
 export default routes;

@@ -1,10 +1,9 @@
-import { Box } from "@mui/material";
 
 const Gift = () => {
     return (
-        <Box>
+        <div>
             <p>Gift Page</p>
-        </Box>
+        </div>
     );
 };
 

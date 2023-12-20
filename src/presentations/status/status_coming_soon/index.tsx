@@ -1,10 +1,10 @@
-import { Box } from "@mui/material";
+
 
 const StatusComingSoon = () => {
     return (
-        <Box>
+        <div>
             <p>Comming Soon</p>
-        </Box>
+        </div>
     );
 };
 

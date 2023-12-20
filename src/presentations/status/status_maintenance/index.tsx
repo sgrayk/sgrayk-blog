@@ -1,10 +1,9 @@
-import { Box } from "@mui/material";
 
 const StatusMaintenance = () => {
     return (
-        <Box>
+        <div>
             <p>Maintenence</p>
-        </Box>
+        </div>
     );
 };
 

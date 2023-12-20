@@ -1,10 +1,9 @@
-import { Box } from "@mui/material";
 
 const Status404 = () => {
     return (
-        <Box>
+        <div>
             <p>404 ERROR</p>
-        </Box>
+        </div>
     );
 };
 

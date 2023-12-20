@@ -1,8 +1,7 @@
 import styled from "@emotion/styled";
-import { Box, Container } from "@mui/material";
 import { Helmet } from "react-helmet-async";
 
-const HomePageWrapper = styled(Box)(
+const HomePageWrapper = styled('div')(
   () => `
     overflow: auto;
     flex: 1;
@@ -17,11 +16,11 @@ const HomePage = () => {
             <Helmet>
                 <title>Overview this Project</title>
             </Helmet>
-            <Container maxWidth='lg'>
-                <Box display='flex' justifyContent='center' py={5} alignItems='center'>
+            <div>
+                <div>
                     <p>Hello world from home</p>
-                </Box>
-            </Container>
+                </div>
+            </div>
         </HomePageWrapper>
     );
 };
