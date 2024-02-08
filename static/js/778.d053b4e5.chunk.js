@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksgrayk_blog=self.webpackChunksgrayk_blog||[]).push([[778],{778:(e,l,r)=>{r.r(l),r.d(l,{default:()=>o});var n=r(686),s=r(159),i=r(184);const d=(0,n.Z)("div")((()=>"\n    overflow: auto;\n    flex: 1;\n    overflow-x: hidden;\n    align-items: center;\n    ")),o=()=>(0,i.jsxs)(d,{children:[(0,i.jsx)(s.ql,{children:(0,i.jsx)("title",{children:"Overview this Project"})}),(0,i.jsx)("div",{children:(0,i.jsx)("div",{children:(0,i.jsx)("p",{children:"Hello world from home"})})})]})}}]);
-//# sourceMappingURL=778.d053b4e5.chunk.js.map
