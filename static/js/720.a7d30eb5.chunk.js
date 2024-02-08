@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksgrayk_blog=self.webpackChunksgrayk_blog||[]).push([[720],{720:(s,e,l)=>{l.r(e),l.d(e,{default:()=>r});var n=l(184);const r=()=>(0,n.jsx)("div",{children:(0,n.jsx)("p",{children:"Comming Soon"})})}}]);
+//# sourceMappingURL=720.a7d30eb5.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksgrayk_blog=self.webpackChunksgrayk_blog||[]).push([[421],{421:(s,e,l)=>{l.r(e),l.d(e,{default:()=>a});var r=l(184);const a=()=>(0,r.jsx)("div",{children:(0,r.jsx)("p",{children:"404 ERROR"})})}}]);
+//# sourceMappingURL=421.b61f975c.chunk.js.map

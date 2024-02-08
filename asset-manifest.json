@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/sgrayk-blog/static/css/main.f855e6bc.css",
-    "main.js": "/sgrayk-blog/static/js/main.cce3cbae.js",
+    "main.css": "/sgrayk-blog/static/css/main.27fa1d48.css",
+    "main.js": "/sgrayk-blog/static/js/main.84f6a2ee.js",
+    "static/js/778.d053b4e5.chunk.js": "/sgrayk-blog/static/js/778.d053b4e5.chunk.js",
+    "static/js/421.b61f975c.chunk.js": "/sgrayk-blog/static/js/421.b61f975c.chunk.js",
+    "static/js/720.a7d30eb5.chunk.js": "/sgrayk-blog/static/js/720.a7d30eb5.chunk.js",
+    "static/js/32.20d6220b.chunk.js": "/sgrayk-blog/static/js/32.20d6220b.chunk.js",
     "static/js/787.bf924b75.chunk.js": "/sgrayk-blog/static/js/787.bf924b75.chunk.js",
-    "static/media/logo.svg": "/sgrayk-blog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/js/686.51902394.chunk.js": "/sgrayk-blog/static/js/686.51902394.chunk.js",
     "index.html": "/sgrayk-blog/index.html",
-    "main.f855e6bc.css.map": "/sgrayk-blog/static/css/main.f855e6bc.css.map",
-    "main.cce3cbae.js.map": "/sgrayk-blog/static/js/main.cce3cbae.js.map",
-    "787.bf924b75.chunk.js.map": "/sgrayk-blog/static/js/787.bf924b75.chunk.js.map"
+    "main.27fa1d48.css.map": "/sgrayk-blog/static/css/main.27fa1d48.css.map",
+    "main.84f6a2ee.js.map": "/sgrayk-blog/static/js/main.84f6a2ee.js.map",
+    "778.d053b4e5.chunk.js.map": "/sgrayk-blog/static/js/778.d053b4e5.chunk.js.map",
+    "421.b61f975c.chunk.js.map": "/sgrayk-blog/static/js/421.b61f975c.chunk.js.map",
+    "720.a7d30eb5.chunk.js.map": "/sgrayk-blog/static/js/720.a7d30eb5.chunk.js.map",
+    "32.20d6220b.chunk.js.map": "/sgrayk-blog/static/js/32.20d6220b.chunk.js.map",
+    "787.bf924b75.chunk.js.map": "/sgrayk-blog/static/js/787.bf924b75.chunk.js.map",
+    "686.51902394.chunk.js.map": "/sgrayk-blog/static/js/686.51902394.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.cce3cbae.js"
+    "static/css/main.27fa1d48.css",
+    "static/js/main.84f6a2ee.js"
   ]
 }
