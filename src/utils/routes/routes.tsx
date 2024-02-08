@@ -8,7 +8,7 @@ import PortfolioLayout from "../../layouts/portfolio_layout";
 import SpecialLayout from "../../layouts/special_layout";
 import Blog from "../../presentations/blog";
 import Portfolio from "../../presentations/portfolio";
-import Noel2023 from "../../presentations/special/noel_2023";
+import Tet2024 from "../../presentations/special/tet2024";
 import Gift from "../../presentations/special";
 
 const Loader = (Component: ComponentType) => (props: JSX.IntrinsicAttributes) =>
@@ -97,8 +97,8 @@ const routes: RouteObject[] = [
         element: <Gift />,
       },
       {
-        path: "noel-2023",
-        element: <Noel2023 />,
+        path: "tet-2024",
+        element: <Tet2024 />,
       },
     ],
   },

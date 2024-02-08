@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+.tet-2024-header1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bad Script', cursive;
+}
+
+.tet2024-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: url('/public/asset/image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+}
+
+/* for h1 */
+
+.tet-2024-header1 {
+    position: relative;
+    font-size: 8vw;
+    display: flex;
+    color: #0e3742;
+}
+
+.tet-2024-header1 span {
+    animation: text 5s infinite;
+}
+
+.tet-2024-header1 span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+.tet-2024-header1 span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+@keyframes text {
+    0%, 18%, 20%, 50%, 60%, .1%, 80%, 90.1%, 92% {
+        color: #0e3742;
+        text-shadow: none;
+    }
+
+    18.1%, 20.1%, 30%, 50%, 60.1%, 85%, 80.1%, 90%, 92.1%, 100% {
+        color: #fff;
+        text-shadow: 0 0 10px #00b3ff,
+            0 0 20px #00b3ff,
+            0 0 40px #00b3ff,
+            0 0 80px #00b3ff,
+            0 0 160px #00b3ff;
+    }
+}
+
+/* for responsive */
+
+@media (max-width: 700px) {
+    .tet-2024-header1 {
+        margin-top: -80px;
+        font-size: 20vw;
+    }
+}
