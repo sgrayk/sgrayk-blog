@@ -5,6 +5,14 @@ const Tet2024 = () => {
   return (
     <>
       <div className="tet2024-body">
+        <audio
+          id="audio"
+          loop
+          autoPlay
+          preload="auto"
+          style={{ display: "none" }}
+          src="public/asset/audio/trang_ve_thon_da.m4a"
+        />
         <Fireworks
           options={{ opacity: 0.5 }}
           style={{
@@ -19,10 +27,19 @@ const Tet2024 = () => {
           }}
         />
         <h1 className="tet-2024-header1">
-          <span>01.</span>
-          <span>01.</span>
-          <span>2024</span>
+          <span>pé&nbsp;</span>
+          <span>công chúa&nbsp;</span>
+          <span>Dzite iu</span>
         </h1>
+        <h2 className="tet-2024-header2">Happy new year</h2>
+        <div className="glowing">
+          {Array.from({ length: 10 }, (_, index) => (
+            <span
+              key={index}
+              style={{ "--i": index } as React.CSSProperties}
+            ></span>
+          ))}
+        </div>
       </div>
     </>
   );
