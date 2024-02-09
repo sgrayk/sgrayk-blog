@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sgrayk-blog/static/css/main.8209cff8.css",
-    "main.js": "/sgrayk-blog/static/js/main.ffbb8f10.js",
+    "main.js": "/sgrayk-blog/static/js/main.bee144f8.js",
     "static/js/778.58184788.chunk.js": "/sgrayk-blog/static/js/778.58184788.chunk.js",
     "static/js/421.b61f975c.chunk.js": "/sgrayk-blog/static/js/421.b61f975c.chunk.js",
     "static/js/720.a7d30eb5.chunk.js": "/sgrayk-blog/static/js/720.a7d30eb5.chunk.js",
@@ -11,7 +11,7 @@
     "static/media/20231125_140931379_iOS.jpg": "/sgrayk-blog/static/media/20231125_140931379_iOS.30f4903cd2d9d65e58f9.jpg",
     "index.html": "/sgrayk-blog/index.html",
     "main.8209cff8.css.map": "/sgrayk-blog/static/css/main.8209cff8.css.map",
-    "main.ffbb8f10.js.map": "/sgrayk-blog/static/js/main.ffbb8f10.js.map",
+    "main.bee144f8.js.map": "/sgrayk-blog/static/js/main.bee144f8.js.map",
     "778.58184788.chunk.js.map": "/sgrayk-blog/static/js/778.58184788.chunk.js.map",
     "421.b61f975c.chunk.js.map": "/sgrayk-blog/static/js/421.b61f975c.chunk.js.map",
     "720.a7d30eb5.chunk.js.map": "/sgrayk-blog/static/js/720.a7d30eb5.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.8209cff8.css",
-    "static/js/main.ffbb8f10.js"
+    "static/js/main.bee144f8.js"
   ]
 }
