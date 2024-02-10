@@ -5,14 +5,6 @@ const Tet2024 = () => {
   return (
     <>
       <div className="tet2024-body">
-        <audio
-          id="audio"
-          loop
-          autoPlay
-          preload="auto"
-          style={{ display: "none" }}
-          src="public/asset/audio/trang_ve_thon_da.m4a"
-        />
         <Fireworks
           options={{ opacity: 0.5 }}
           style={{

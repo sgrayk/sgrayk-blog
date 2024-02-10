@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const HomePageWrapper = styled('div')(
   () => `
@@ -18,7 +19,9 @@ const HomePage = () => {
             </Helmet>
             <div>
                 <div>
-                    <p>Hello world from home</p>
+                    <Link to={"/specialgift/tet-2024"}>Tết cho em Dzịte iu dấu (nhấn vô nhé)</Link>
+                    <span>Tết này hơi bận nên anh hăm làm choa chu đáo đuộc nghoen</span>
+                    <span>Hẹn pé sự kiện sau nè</span>
                 </div>
             </div>
         </HomePageWrapper>
